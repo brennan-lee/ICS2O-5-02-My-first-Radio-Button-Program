@@ -6,6 +6,15 @@
 
 "use strict"
 
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register(
+    "/ICS2O-5-02-My-first-Radio-Button-Program/sw.js",
+    {
+      scope: "/ICS2O-5-02-My-first-Radio-Button-Program/",
+    }
+  )
+}
+
 /**
  * This function updates the slider value.
  */
