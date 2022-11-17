@@ -17,13 +17,13 @@ function updateSliderValue(valueFromSlider) {
  * This function displays the slider value.
  */
 function myButtonClicked() {
-  buttonOnChecked = document.getElementById('flash1').checked
+  buttonOnChecked = document.getElementById("flash1").checked
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: 1</p>"
+      "<p>Value is: 1</p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: 6</p>"
+      "<p>Value is: 6</p>"
   }
 }
