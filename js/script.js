@@ -6,6 +6,9 @@
 
 "use strict"
 
+/**
+ * Check servie worker.
+ */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
     "/ICS2O-5-02-My-first-Radio-Button-Program/sw.js",
@@ -26,13 +29,13 @@ function updateSliderValue(valueFromSlider) {
  * This function displays the slider value.
  */
 function myButtonClicked() {
-  buttonOnChecked = document.getElementById("flash").checked
+  buttonOnChecked = document.getElementById('flash1').checked
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: On</p>"
+    "<p>Value is: On</p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: Off</p>"
+    "<p>Value is: Off</p>"
   }
 }
