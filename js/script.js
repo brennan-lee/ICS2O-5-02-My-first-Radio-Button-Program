@@ -22,7 +22,7 @@ if (navigator.serviceWorker) {
  * This function updates the slider value.
  */
 //function updateSliderValue(valueFromSlider) {
- // document.getElementById("slider-value").innerHTML = valueFromSlider
+// document.getElementById("slider-value").innerHTML = valueFromSlider
 //}
 
 /**
