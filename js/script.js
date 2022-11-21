@@ -21,9 +21,9 @@ if (navigator.serviceWorker) {
 /**
  * This function updates the slider value.
  */
-function updateSliderValue(valueFromSlider) {
-  document.getElementById("slider-value").innerHTML = valueFromSlider
-}
+//function updateSliderValue(valueFromSlider) {
+ // document.getElementById("slider-value").innerHTML = valueFromSlider
+//}
 
 /**
  * This function displays the slider value.
