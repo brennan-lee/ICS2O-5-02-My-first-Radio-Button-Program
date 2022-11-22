@@ -1,7 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2022 brennan-lee All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: brennan-lee
+// Created on: nov 2022
 // This file contains the JS functions for index.html
 
 /**
@@ -9,9 +9,9 @@
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
-    "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
+    "/IICS2O-5-02-My-first-Radio-Button-Program/sw.js",
     {
-      scope: "/ICS2O-Unit5-01-HTML-Slider-Example/",
+      scope: "/ICS2O-5-02-My-first-Radio-Button-Program/",
     }
   )
 }
@@ -31,9 +31,9 @@ function myButtonClicked() {
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: On</p>"
+    "<p>Value is: 6</p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: Off</p>"
+    "<p>Value is: 6</p>"
   }
 }
