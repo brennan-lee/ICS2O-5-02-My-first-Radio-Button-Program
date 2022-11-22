@@ -31,9 +31,9 @@ function myButtonClicked() {
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: 6</p>"
+      "<p>Value is: 6</p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-    "<p>Value is: 6</p>"
+      "<p>Value is: 6</p>"
   }
 }
