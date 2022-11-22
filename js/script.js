@@ -1,19 +1,17 @@
-// Copyright (c) 2022 Brennan Lee All rights reserved
+// Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Brennan lee
-// Created on: nov 2022
+// Created by: Mr. Coxall
+// Created on: Sep 2020
 // This file contains the JS functions for index.html
-
-"use strict"
 
 /**
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
-    "/ICS2O-5-02-My-first-Radio-Button-Program/sw.js",
+    "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
     {
-      scope: "/ICS2O-5-02-My-first-Radio-Button-Program/",
+      scope: "/ICS2O-Unit5-01-HTML-Slider-Example/",
     }
   )
 }
@@ -21,21 +19,21 @@ if (navigator.serviceWorker) {
 /**
  * This function updates the slider value.
  */
-//function updateSliderValue(valueFromSlider) {
-// document.getElementById("slider-value").innerHTML = valueFromSlider
-//}
+function updateSliderValue(valueFromSlider) {
+  document.getElementById("slider-value").innerHTML = valueFromSlider
+}
 
 /**
  * This function displays the slider value.
  */
 function myButtonClicked() {
-  buttonOnChecked = document.getElementById("flash1").checked
+  buttonOnChecked = document.getElementById('flash1').checked
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: On</p>"
+    "<p>Value is: On</p>"
   } else {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: Off</p>"
+    "<p>Value is: Off</p>"
   }
 }
