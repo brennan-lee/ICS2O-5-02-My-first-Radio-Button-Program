@@ -9,7 +9,7 @@
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
-    "/IICS2O-5-02-My-first-Radio-Button-Program/sw.js",
+    "/ICS2O-5-02-My-first-Radio-Button-Program/sw.js",
     {
       scope: "/ICS2O-5-02-My-first-Radio-Button-Program/",
     }
